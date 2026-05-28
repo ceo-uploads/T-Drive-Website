@@ -166,13 +166,24 @@ export default function App() {
   };
 
   // Synchronize authenticated user profile from Project A database
-  const handleAuthChange = async (user: User | null) => {
-    if (user) {
+  const handleAuthChange = async (rawUser: User | null) => {
+    if (rawUser) {
+      const cleanEmail = (rawUser.email || "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+      const customUid = `sim_uid_${cleanEmail}`;
+      
+      const user = {
+        ...rawUser,
+        uid: customUid,
+        email: rawUser.email,
+        displayName: rawUser.displayName,
+        photoURL: rawUser.photoURL,
+      } as User;
+
       setCurrentUser(user);
-      dbLog(`User logged in securely: ${user.email}`);
+      dbLog(`User logged in securely: ${user.email} (DB Key: ${customUid})`);
       
       // Load user profile from dbA
-      let details = await dbGetUser(user.uid);
+      let details = await dbGetUser(customUid);
       if (!details) {
         // Create a completely new user profile on Project A database
         dbLog(`Registering new user profile in Project A DB for ${user.email}`);
@@ -190,13 +201,13 @@ export default function App() {
           licenseActiveDate: null,
           licenseEndDate: null
         };
-        await dbSaveUser(user.uid, newRecord);
-        details = { ...newRecord, uid: user.uid };
+        await dbSaveUser(customUid, newRecord);
+        details = { ...newRecord, uid: customUid };
       }
       setProfileDetails(details);
       
       // Retrieve registered payment ledger for this user from Project B
-      const payments = await dbGetUserPayments(user.uid);
+      const payments = await dbGetUserPayments(customUid);
       setCurrentUserPayments(payments);
     } else {
       setCurrentUser(null);
@@ -246,7 +257,7 @@ export default function App() {
       return;
     }
     setLoadingUser(true);
-    const mockUid = `sim_uid_${simulatedLoginEmail.replace(/[^a-zA-Z]/g, "")}`;
+    const mockUid = `sim_uid_${simulatedLoginEmail.replace(/[^a-zA-Z0-9]/g, "").toLowerCase()}`;
     const mockUser = {
       uid: mockUid,
       email: simulatedLoginEmail,
