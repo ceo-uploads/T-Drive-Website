@@ -1,0 +1,260 @@
+export const translations = {
+  en: {
+    appName: "T-Drive - T-Integrated Drive",
+    tagline: "The Ultimate Unlimited Cloud Storage Powered by Telegram Core",
+    description: "Upload terabytes of movies, documents, and assets into secure, encrypted private Telegram channels. Download, stream, and share files seamlessly without hard storage caps.",
+    heroTitle: "Enjoy 100% Unlimited Storage Lifetime",
+    heroSubtitle: "T-Drive acts as a desktop explorer client linking client credentials to personal Cloud Storage channels. Get high performance, zero-throttling transfer lines, and embedded custom media streams.",
+    
+    // Nav links
+    home: "Home",
+    downloads: "Downloads",
+    freeTrial: "Free Trial",
+    pricing: "Pricings",
+    privacy: "Privacy Policy",
+    terms: "Terms & Conditions",
+    loginSignup: "Login / Signup",
+    profile: "My Profile",
+    admin: "Admin Console",
+
+    // Language Toggle
+    langSwitch: "বাংলা",
+
+    // Action buttons
+    downloadNow: "Download Desktop Client",
+    getTrial: "Claim Free Trial",
+    viewPricing: "Explore Premium Tiers",
+    googleSignIn: "Continue with Google (Gmail)",
+    logout: "Log Out",
+    learnMore: "Watch Guideline Video",
+
+    // Features Section
+    featureTitle: "T-Drive Application Features",
+    setupAuth: "Setup & Auth Engine",
+    setupDesc: "Store api_id, api_hash and OTP keys locally. Safe Zero-Knowledge structure secures authentication tokens inside your device offline.",
+    fileExplorer: "Virtual Directory Grid",
+    fileDesc: "Grid views supporting over 10,000 files with optimized infinite scroll. Context menus for Downloads, Deletions, and metadata edits.",
+    uploadEngine: "Asset Ingress Pipeline",
+    uploadDesc: "Supports up to 2.0 GB uploads for standard profiles and up to 4.0 GB for Premium Accounts. Zip-folder mode wraps folders before uploading.",
+    transferMonitor: "Real-time Progress Monitor",
+    transferDesc: "Keep track of active transfer packets, file speed, and approximate remaining time with individual pause, resume and cancel flags.",
+    streamDeck: "Inline Multimedia Deck",
+    streamDesc: "Supports chunked range seeking (Accept-Ranges: bytes) of active stream files straight from source without pre-loading full assets.",
+    proxyIntegration: "Bypass & Proxy Control",
+    proxyDesc: "Equipped with direct SOCKS5 and MTProto configurations alongside client speed limit shapers protecting home connection limits.",
+
+    // Download links
+    downloadTitle: "Download T-Drive Client",
+    downloadDesc: "Select the direct architecture wrapper matching your machine workspace environment. Includes stable built binaries for both Windows and Mac platforms.",
+    windowsDownload: "Download Installer (.exe)",
+    windowsBeta: "Windows 10/11 x64 Build -- Stable",
+    macDownload: "Download App Bundle (.app)",
+    macBeta: "MacOS Apple Silicon / Intel -- Stable",
+    sourceCode: "Open-Source Rust Wrapper",
+
+    // Free Trial section
+    trialTitle: "Activate Your 30-Day Free Trial",
+    trialActiveMsg: "Free Trial Active! Your trial session is currently running. Enjoy unrestricted high-speed operations.",
+    trialRemaining: "Remaining Lifetime",
+    trialDays: "Days",
+    trialHours: "Hours",
+    trialUsedMsg: "Free Trial Expired (Used in this Account). Access to existing documents remains functional. Upload/premium tasks are locked.",
+    requireLoginTrial: "Google Workspace login is required to safely initialize your 1-Month Free Trial.",
+    startTrialBtn: "Activate Free Trial Now",
+    featureAfterTrial: "Free Tier Resilience: After your Free Trial or Package expires, you retain 100% access to view, download, and share your uploaded assets forever. Only new file uploads and proxy configurations are restricted.",
+
+    // Pricings
+    pricingTitle: "Flexible Licensing Packages",
+    pricingSubtitle: "Unlock full continuous integration, high concurrent worker queues, and remove upload locks permanently.",
+    savedLabel: "Saved",
+    originalPrice: "Regular",
+    buyMethodTitle: "Secure Payment Methods",
+    bkashTitle: "bKash Merchant Account",
+    nagadTitle: "Nagad Merchant Account",
+    copyNumber: "Copy Merchant Number",
+    numberCopied: "Merchant Number Copied!",
+    invoiceDetails: "Invoice Information",
+    instructionTitle: "Payment Guideline",
+    instructionDesc: "Send money manually to the merchant number with the exact package value in Taka. After matching, insert details below to verify.",
+    warnLimit: "Only 'Send Money' is accepted. Ensure the correct Taka amount is selected.",
+    payAmount: "Amount to Send",
+    accountPlaceholder: "Your Payment Account Number (e.g. 017xxxxxxxx)",
+    trxPlaceholder: "Transaction ID (TrxID)",
+    confirmOrder: "Submit Purchase Invoice",
+    orderSubmitted: "Invoice Registered! Our administrators are currently matching the Transaction ID from the bKash/Nagad registers. Your license status will be updated immediately (Status: Pending).",
+    pendingStatus: "Pending Admin Verification",
+
+    // Limits & Rules
+    faqLimitTitle: "In-App Upload Capacities & Safety Rules",
+    limit1Title: "Size Boundaries",
+    limit1Desc: "Max file upload is 2.0 GB for standard channels, adjusting automatically to 4.0 GB for certified Premium-activated Telegram layers.",
+    limit2Title: "No Hard Storage Caps",
+    limit2Desc: "You can archive terabytes of files across standard folders safely. There is no hard lifetime ceiling on Telegram storage channels.",
+    limit3Title: "Daily Bandwidth Speeds",
+    limit3Desc: "Standard accounts have a daily upload limit of 250 GB. Chunked assets (e.g. 10 GB file split to 5 parts) ensure zero transport fails.",
+    limit4Title: "Spam & Abuse Defense",
+    limit4Desc: "Avoid triggering consecutive ultra-high-speed network requests. If caught, Telegram triggers protective FLOOD_WAIT flags, temporarily locking account queues.",
+
+    // Contacts & Videos
+    footerText: "T-Drive Client Dashboard & License Distribution Node. For support, reach out to our active helpdesks.",
+    supportEmail: "Support Email",
+    whatsappBtn: "Contact WhatsApp (24/7 Active)",
+    youtubeTitle: "T-Drive Setup & API Configuration Tutorial",
+    youtubeSub: "Walkthrough detailing how to claim custom api_id, api_hash values, and input them safely within the client.",
+
+    // Profile Screen
+    profileHeader: "User Profile Deck",
+    gmailLabel: "Authenticated Gmail",
+    joinLabel: "Registered On",
+    licenseCardTitle: "Active System License",
+    licenseStatus: "License Status",
+    activePackage: "Active Tier Bundle",
+    activeDate: "Package Activation Date",
+    endDate: "Package Expiry Date",
+    validityLabel: "License Validity Period",
+    downloadLicBtn: "Export License (.txt)",
+    licInstructBtn: "Read Guide & Limits",
+    inactiveLicenseWarning: "License Inactive! Please activate your 30-day Free Trial or purchase a premium license from the Pricings tab to access the core explorer client.",
+    purchaseHistoryTitle: "License Purchase Log",
+    paymentsHistoryTitle: "Direct Invoices registered on Project B",
+    noHistory: "No registered logs found on this account.",
+
+    // General Words
+    active: "Active",
+    inactive: "Inactive",
+    pending: "Pending",
+    approved: "Approved",
+    declined: "Declined",
+    status: "Status",
+    date: "Date"
+  },
+  bn: {
+    appName: "টি-ড্রাইভ - টেলিগ্রাম ইন্টিগ্রেটেড ক্লাউড",
+    tagline: "টেলিগ্রাম কোরের উপর ভিত্তি করে সম্পূর্ণ আনলিমিটেড ক্লাউড স্টোরেজ",
+    description: "আপনার ব্যক্তিগত সুরক্ষিত টেলিগ্রাম ফোল্ডারগুলোতে টেরাবাইট ভিডিও, মুভি এবং ব্যাকআপ আপলোড করুন। স্টোরেজের কোনো লিমিট ছাড়াই ডাউনলোড, স্ট্রিম এবং শেয়ার করুন অত্যন্ত সহজে।",
+    heroTitle: "আজীবন ১০০% আনলিমিটেড ক্লাউড স্টোরেজ ব্যবহার করুন",
+    heroSubtitle: "টি-ড্রাইভ হল একটি শক্তিশালী ডেস্কটপ ক্লায়েন্ট যা আপনার ব্যক্তিগত টেলিগ্রাম চ্যানেলের সাথে স্টোরেজ কানেক্ট করে। থ্রোটলিং ছাড়া হাই স্পিড স্পীড এবং ইন-বিল্ড মিডিয়া প্লেয়ার উপভোগ করুন।",
+    
+    // Nav links
+    home: "হোম",
+    downloads: "ডাউনলোডস",
+    freeTrial: "ফ্রি ট্রায়াল",
+    pricing: "প্যাকেজ সমূহ",
+    privacy: "প্রাইভেসি পলিসি",
+    terms: "শর্তাবলী",
+    loginSignup: "লগইন / সাইনআপ",
+    profile: "প্রোফাইল",
+    admin: "অ্যাডমিন প্যানেল",
+
+    // Language Toggle
+    langSwitch: "English",
+
+    // Action buttons
+    downloadNow: "ডেস্কটপ ক্লায়েন্ট ডাউনলোড করুন",
+    getTrial: "ফ্রি ট্রায়াল চালু করুন",
+    viewPricing: "প্রিমিয়াম প্যাকেজ দেখুন",
+    googleSignIn: "গুগল অ্যাকাউন্ট দিয়ে লগইন করুন",
+    logout: "লগ আউট",
+    learnMore: "টিউটোরিয়াল ভিডিও দেখুন",
+
+    // Features Section
+    featureTitle: "টি-ড্রাইভ অ্যাপ্লিকেশনের বিশেষ সুবিধাসমূহ",
+    setupAuth: "সহজ সেটআপ ও লগইন সিস্টেম",
+    setupDesc: "টেলিগ্রাম api_id, hash অফলাইনে সুরক্ষিত থাকে। জিরো-নলেজ আর্কিটেকচার এর সাহায্যে আপনার তথ্য সম্পূর্ণ নিরাপদে ও লোকাল মেশিনে সংরক্ষিত থাকে।",
+    fileExplorer: "ভার্চুয়াল ডিরেক্টরি গ্রিড সিস্টেম",
+    fileDesc: "একসাথে ১০,০০০ এর বেশি মেমরি লোড সামলাতে সক্ষম। ডিরেক্টরি নেভিগেশন এবং ফাইল ডাওনলোড ও ডিলেটের জন্য রয়েছে প্রফেশনাল রাইট-ক্লিক মেনু।",
+    uploadEngine: "ইনলাইন আপলোড আর্কিটেকচার",
+    uploadDesc: "ফ্রি গ্রাহকদের জন্য সর্বোচ্চ ২ জিবি এবং টেলিগ্রাম প্রিমিয়াম গ্রাহকদের জন্য ৪ জিবি পর্যন্ত ফাইল সাপোর্টেড। ফোল্ডার জিপিং মোড স্বয়ংক্রিয়ভাবে ফোল্ডার কম্প্রেস করে দেয়।",
+    transferMonitor: "রিয়েল-টাইম ট্রান্সফার মনিটর",
+    transferDesc: "প্রতিটি ফাইলের আপলোড/ডাউনলোড স্পিড, বাকি সময় সহ এক স্ক্রিনে মনিটর করুন। ফাইল পজ, রেজুম বা ক্যানসেল করার ফুল সুবিধা রয়েছে।",
+    streamDeck: "ডকুমেন্ট ভিউয়ার ও মিডিয়া স্ট্রিমার",
+    streamDesc: "সম্পূর্ণ ফাইল ডাউনলোড না করেই বাফার-ফ্রি স্ট্রিমিং ও স্ক্রলিং ভিউ সাপোর্ট। টেকনিক্যাল সিকুয়েন্সে ইন্টারনাল স্ট্রিম ডাটা লোড হয়।",
+    proxyIntegration: "নেটওয়ার্ক ও প্রক্সি ইন্টিগ্রেশন",
+    proxyDesc: "সরাসরি SOCKS5 এবং MTProto প্রক্সি ব্যবহারের দারুণ সুযোগ। ব্যান্ডউইথ কন্ট্রোল ফিচারের মাধ্যমে লোকাল কানেকশন ইন্টারনেট কাস্টমাইজ সুবিধা।",
+
+    // Download links
+    downloadTitle: "টি-ড্রাইভ ক্লায়েন্ট ডাউনলোড করুন",
+    downloadDesc: "আপনার লোকাল ডিভাইস পিসির সাথে মানানসই আর্কিটেকচার ফাইল নির্বাচন করুন। উইন্ডোজ এবং ম্যাকওএস দুই ডিভাইসের জন্যই ডাউনলোড লিংক নিচে উপলব্ধ আছে।",
+    windowsDownload: "উইন্ডোজের জন্য ডাউনলোড উইজার্ড (.exe)",
+    windowsBeta: "উইন্ডোজ ১০ / ১১ x64 সংস্করণ -- স্ট্যাবল",
+    macDownload: "ম্যাকওএসের জন্য অ্যাপ বান্ডেল (.app)",
+    macBeta: "অ্যাপল সিলিকন / ইন্টেল ম্যাক -- স্ট্যাবল",
+    sourceCode: "ওপেন-সোর্স রাস্ট কোড রিলিজ",
+
+    // Free Trial section
+    trialTitle: "আপনার ৩০ দিনের ফ্রি ট্রায়ালটি চালু করুন",
+    trialActiveMsg: "অভিনন্দন! ফ্রি ট্রায়াল অফারটি সফলভাবে চালু আছে। কোনো প্রকার বাধা ছাড়াই সর্বোচ্চ সেবা উপভোগ করুন।",
+    trialRemaining: "বাকি সময়সীমা",
+    trialDays: "দিন",
+    trialHours: "ঘণ্টা",
+    trialUsedMsg: "ফ্রি ট্রায়াল ইতিমধ্যে শেষ হয়েছে। আপলোড ব্যতীত পূর্বের ফাইল ডাউনলোড ও শেয়ারিং আজীবন চালু থাকবে।",
+    requireLoginTrial: "১ মাসের ফ্রি ট্রায়াল সুরক্ষিতভাবে অ্যাক্টিভেট করতে গুগল কিংবা জিমেইল অ্যাকাউন্টের মাধ্যমে সাইন ইন করুন।",
+    startTrialBtn: "অ্যাক্টিভেট করুন ফ্রি ট্রায়াল",
+    featureAfterTrial: "ফ্রি-টিয়ার আজীবন সুবিধা: আপনার ট্রায়াল বা প্যাকেজের মেয়াদ শেষ হলেও আপনার আপলোডকৃত ফাইলসমূহ আজীবন দেখতে, ডাউনলোড করতে এবং অন্যদের সাথে শেয়ার করতে পারবেন। নতুন ফাইল আপলোডিং এবং প্রক্সি কেবল মাত্র প্রিমিয়াম মেয়াদে সচল থাকে।",
+
+    // Pricings
+    pricingTitle: "আমাদের সাশ্রয়ী লাইসেন্সিং প্যাকেজসমূহ",
+    pricingSubtitle: "লাইসেন্স প্যাচ ক্রয় করে সকল প্রকার ইন্টারনাল কোটা স্পীড লিমিট দূর করুন চিরতরে।",
+    savedLabel: "সাশ্রয়",
+    originalPrice: "নিয়মিত",
+    buyMethodTitle: "নিরাপদ পেমেন্ট মেথড",
+    bkashTitle: "বিকাশ মার্চেন্ট অ্যাকাউন্ট",
+    nagadTitle: "নগদ মার্চেন্ট অ্যাকাউন্ট",
+    copyNumber: "মার্চেন্ট নাম্বার কপি করুন",
+    numberCopied: "মার্চেন্ট নাম্বার কপি করা হয়েছে!",
+    invoiceDetails: "ইনভয়েস তথ্য পূরণ করুন",
+    instructionTitle: "পেমেন্ট করার নিয়মাবলী",
+    instructionDesc: "উপরে উল্লেখিত বিকাশ বা নগদ মার্চেন্ট নম্বরে প্যাকেজ মূল্য সমপরিমাণ টাকা ম্যানুয়ালি 'Send Money' করুন। পেমেন্ট কনফার্মেশনের পর নিচের বক্সে বিবরণীটি দিন।",
+    warnLimit: "শুধুমাত্র 'Send Money' গ্রহণযোগ্য। দয়া করে সঠিক টাকার পরিমাণটি পরিশোধ করুন।",
+    payAmount: "পরিশোধের পরিমাণ",
+    accountPlaceholder: "আপনার পেমেন্ট মোবাইল নাম্বার (যেমন: 017xxxxxxxx)",
+    trxPlaceholder: "লেনদেন আইডি (TrxID)",
+    confirmOrder: "পেমেন্ট ভেরিফিকেশন জমা দিন",
+    orderSubmitted: "আপনার পেমেন্ট আবেদনটি নিবন্ধিত হয়েছে! আমাদের অ্যাডমিনরা ট্রানজেকশন ডাটাবেজের সাথে আইডি মিলিয়ে দেখছেন। ভেরিফাই সমাপ্ত হতেই আপনার প্রোফাইলে লাইসেন্স অ্যাক্টিভেট হয়ে যাবে (স্ট্যাটাস: পেন্ডিং)।",
+    pendingStatus: "অ্যাডমিন ভেরিফিকেশনের জন্য অপেক্ষারত",
+
+    // Limits & Rules
+    faqLimitTitle: "আপলোড লিমিট ও সুরক্ষা নির্দেশাবলি",
+    limit1Title: "ফাইল সাইজের সীমা",
+    limit1Desc: "ফ্রি ব্যবহারকারীদের জন্য ২ জিবি এবং টেলিগ্রাম প্রিমিয়াম গ্রাহকদের জন্য সর্বোচ্চ ৪ জিবি পর্যন্ত সিঙ্গেল ফাইল নিরাপদে আপলোডযোগ্য।",
+    limit2Title: "স্টোরেজের কোনো সর্বোচ্চ সীমা নেই",
+    limit2Desc: "আপনি চাইলে আপনার ফোল্ডারে টেরাবাইটের পর টেরাবাইট ফাইল আর্কাইভ করতে পারেন। টেলিগ্রাম ক্লাউড স্টোরেজে কোনো স্পেস সীমা নেই।",
+    limit3Title: "দৈনিক ডেটা ট্রান্সফার রেট",
+    limit3Desc: "টি-ড্রাইভ দৈনিক ২৫০ জিবি পর্যন্ত ডেটা আপলোড সাপোর্ট করে। ১০ জিবি সাইজের ফাইল ৫টি ২ জিবি পার্ট আকারে আপলোড দিলে ফেইল রেট শূন্য থাকে।",
+    limit4Title: "স্প্যামিং ও ফ্লাড সুরক্ষা",
+    limit4Desc: "অতিরিক্ত ডাউনলোডার একসাথে চালাবেন না। ফ্লাড বা স্প্যামিং ধরা পড়লে টেলিগ্রাম ফায়ারওয়াল অ্যাকাউন্টকে কিছু সময়ের জন্য স্থগিত (FLOOD_WAIT) করতে পারে।",
+
+    // Contacts & Videos
+    footerText: "টি-ড্রাইভ ক্লায়েন্ট ডাউনলোড এবং লাইসেন্স প্রোভাইডার। যেকোনো প্রশ্ন বা সাপোর্টের জন্য আমাদের হেল্পডেস্কে সরাসরি যোগাযোগ করতে পারেন।",
+    supportEmail: "সহযোগিতা ইমেইল",
+    whatsappBtn: "সরাসরি হোয়াটস্যাপ চ্যাট (২৪ ঘণ্টা সচল)",
+    youtubeTitle: "টি-ড্রাইভ সেটআপ টিউটোরিয়াল ও এপিআই তৈরি নির্দেশিকা",
+    youtubeSub: "টেলিগ্রাম সাইট থেকে সহজে api_id এবং api_hash বের করে ক্লায়েন্টে বসানোর সম্পূর্ণ ভিডিও গাইডলাইন নিচে দেওয়া হলো।",
+
+    // Profile Screen
+    profileHeader: "আমার প্রোফাইল ড্যাশবোর্ড",
+    gmailLabel: "নিবন্ধিত জিমেইল",
+    joinLabel: "নিবন্ধন করেছেন",
+    licenseCardTitle: "টি-ড্রাইভ সচল লাইসেন্স কার্ড",
+    licenseStatus: "লাইসেন্স স্ট্যাটাস",
+    activePackage: "লাইসেন্সড প্যাকেজ প্রকার",
+    activeDate: "লাইসেন্স চালু হওয়ার তারিখ",
+    endDate: "লাইসেন্স সমাপ্তির তারিখ",
+    validityLabel: "লাইসেন্স মেয়াদের বাকি সময়",
+    downloadLicBtn: "লাইসেন্স ফাইল ডাউনলোড (.txt)",
+    licInstructBtn: "ব্যবহারের নিয়ম ও লিমিট",
+    inactiveLicenseWarning: "দুঃখিত, আপনার লাইসেন্সটি এখন অ্যাক্টিভ নেই! দয়া করে ৩০ দিনের ফ্রি ট্রায়ালটি সচল করুন অথবা প্যাকেজ ট্যাব থেকে একটি প্যাকেজ অর্ডার বা অ্যাক্টিভেট করুন।",
+    purchaseHistoryTitle: "ক্রয়কৃত লাইসেন্স হিস্টোরি",
+    paymentsHistoryTitle: "প্রজেক্ট-বি ডাটাবেজে আপনার ট্রানজেকশন সমূহ",
+    noHistory: "এখনো কোনো ইনভয়েস রেকর্ড পাওয়া যায়নি।",
+
+    // General Words
+    active: "সচল (Active)",
+    inactive: "অচল (Inactive)",
+    pending: "পেন্ডিং (Pending)",
+    approved: "অনুমোদিত (Approved)",
+    declined: "প্রত্যাখ্যাত (Declined)",
+    status: "অবস্থা",
+    date: "তারিখ"
+  }
+};

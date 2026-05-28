@@ -1,0 +1,6 @@
+{
+  "name": "Unlimited Drive",
+  "description": "T-Drive: The Telegram Integrated Unlimited Cloud Storage client. Buy licenses, register for active trials, and supercharge your cloud assets with no hard limits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
